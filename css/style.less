@@ -1,3 +1,7 @@
+main .price .slider {
+	padding-bottom: 56px;
+}
+
 main .social .social__ul {
 	margin-left: 633px;
 }
@@ -223,8 +227,8 @@ main {
 	}
 
 	.price {
-		height: 580px;
 		background-color: #e8e8e8;
+		text-align: center;
 		h2 {
 			text-align: center;;
 			font-family: "Myriad Pro", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -294,6 +298,7 @@ main {
 
 				ul {
 					padding: 0;
+					margin-bottom: 0;
 					li {
 						list-style-type: none;
 						border-top: 1px solid #c2c2c2;
@@ -309,18 +314,111 @@ main {
 						}
 					}
 				}
+
+				.a__first-layer {
+					background: #322e2e;
+					padding: 30px 0px;
+
+					a {
+						color: white;
+						font-family: "Myriad Pro", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+						font-size: 15px;
+						font-weight: 700;
+						line-height: 18px;
+						text-transform: uppercase;
+						background: #514d4d;
+						text-decoration: none;
+						padding: 11px 26px;
+					}
+				}
 			}
 
 			.price-item:last-child {
 				margin-right: 0px;
 			}
+		}
 
+		.price__p_style_italic {
+				width: 794px;
+				color: #848484;
+				margin: auto;
+				font-family: "Helvetica Neue",'Work Sans', sans-serif;
+				font-size: 24px;
+				font-style: italic;
+				line-height: 32px;
+				margin-top: 75px;
+		}
+
+		.price__p_author {
+			color: black;
+			font-family: "Myriad Pro", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 16px;
+			font-weight: 600;
+			line-height: 24px;
+			margin-bottom: 53px;
+		}
+
+		.slider {
+			button {
+				background: url(../img/slider-marker.png) no-repeat;
+				width: 17px;
+				height: 16px;
+				border: none;
+			}
+		}
+	}
+
+	.subscribe {
+		margin-top: -25px;
+		background: url(../img/subscribe-bg.jpg) no-repeat;
+
+		h2 {
+			color: black;
+			padding-top: 58px;
+			text-align: center;
+			font-family: "Myriad Pro", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 30px;
+			font-weight: 600;
+			line-height: 24px;
+		}
+
+
+		form {
+			text-align: center;
+			padding-top: 15px;
+			padding-bottom: 59px;;
+
+			input {
+				opacity: 0.65;
+				color: white;
+				font-family: "Myriad Pro", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-size: 18px;
+				font-weight: 700;
+				line-height: 18px;
+				text-transform: uppercase;
+				background: black;
+				border: none;
+				padding: 26px 67px;
+			}
+
+			button {
+				margin-left: 4px;
+				color: white;
+				font-family: "Myriad Pro", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-size: 18px;
+				font-weight: 700;
+				line-height: 18px;
+				text-transform: uppercase;
+				background-color: #e74c3c;
+				border: none;
+				padding: 27px 18px;
+			}
 		}
 	}
 
 
 	.social {
-		margin-top: 46px;
+		margin-top: -23px;
 		h2 {
 			text-align: center;
 			font-family: "Myriad Pro", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -398,7 +496,7 @@ footer {
 	width: 1600px;
 	background-color: #e8e8e8;
 	text-align: center;
-	margin-top: 84px;
+	margin-top: 62px;
 	padding-top: 37px;
 	padding-bottom: 56px;
 	.footer__ul {
