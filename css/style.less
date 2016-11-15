@@ -305,6 +305,10 @@ main {
 							line-height: 24px;
 						}
 					}
+
+					li:last-child {
+						display: none;
+					}
 				}
 
 				.a__first-layer {
@@ -330,6 +334,17 @@ main {
 					a:active {
 						background: darken(#514d4d, 20%);
 					}
+				}
+			}
+
+			.price-item:hover {
+				margin-top: -21px;
+				h3 {
+					background-color: #e74c3c;
+				}
+
+				li:last-child {
+					display: block;
 				}
 			}
 
@@ -383,7 +398,6 @@ main {
 			font-weight: 600;
 			line-height: 24px;
 		}
-
 
 		form {
 			text-align: center;
